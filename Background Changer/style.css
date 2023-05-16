@@ -1,0 +1,42 @@
+body {
+    background: #81ecec;
+}
+
+div {
+    width: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: white;
+}
+
+#a {
+    flex: 1;
+    background: #8ecae6;
+    color: #8ecae6;
+}
+
+#b {
+    flex: 1;
+    background: #219ebc;
+    color: #219ebc;
+}
+
+#c {
+    flex: 1;
+    background: #023047;
+    color: #023047;
+}
+
+#d {
+    flex: 1;
+    background: #ffb703;
+    color: #ffb703;
+}
+
+#e {
+    flex: 1;
+    background: #fb8500;
+    color: #fb8500;
+}
