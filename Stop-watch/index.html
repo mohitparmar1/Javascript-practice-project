@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop-watch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="stopWatch">
+      <h1 id="displayTime">00:00:00</h1>
+      <div class="stopWatch__buttons">
+        <img src="images/stop.png" onclick="watchStop()" />
+        <img
+          src="images/start.png"
+          class="pause"
+          onclick="watchStart()"
+          ondblclick="watchPause()"
+        />
+        <img src="images/reset.png" onclick="watchReset()" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
