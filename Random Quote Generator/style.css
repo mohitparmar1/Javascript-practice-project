@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(45deg, #9b5de5, #fde4cf);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 430px;
+    background: #fff;
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
+}
+
+.quote h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
+}
+
+.quote hr {
+    width: 50%;
+    height: 3px;
+    background: #90dbf4;
+    border: none;
+    margin: 20px auto;
+}
+
+.quote p {
+    font-size: 1.5rem;
+    font-family: 'poppins', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0 1rem;
+    line-height: 1.6;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.quote #author {
+    font-family: 'poppins', sans-serif;
+    color: black;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+.container .quote>div button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 2px solid #fff;
+    color: #fff;
+    background: black;
+    border-radius: 5%;
+    padding: .75rem;
+    cursor: pointer;
+}
+
+.container .quote>div button:hover {
+    background: #fff;
+    color: black;
+    border: 2px solid black;
+    transition: all .3s ease;
+}
