@@ -1,4 +1,5 @@
 let displayTimeEl = document.getElementById("displayTime");
+let Start = document.getElementById("start");
 let [hour, minute, second] = [0, 0, 0];
 let timer = null;
 
@@ -24,10 +25,13 @@ function watchStart() {
     clearInterval(timer);
   }
   timer = setInterval(stopWatch, 1000);
+  Start.src = "./images/orgpause.jpeg";
 }
 
 function watchPause() {
   clearInterval(timer);
+  Start.classList.add("pause");
+  Start.src = "./images/start.png";
 }
 
 function watchStop() {

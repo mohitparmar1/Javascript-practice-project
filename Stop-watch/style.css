@@ -44,3 +44,8 @@
     width: 70px;
     height: 70px;
 }
+
+.pause{
+    border: none;
+    border-radius: 50%;
+}
