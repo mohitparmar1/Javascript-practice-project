@@ -1,3 +1,4 @@
-const bgchange = (id) => {
-  document.body.style.background = document.getElementById(id).innerHTML;
-};
+const bgchange = (id) =>{
+  let color = document.getElementById(id).innerHTML;
+  document.body.style.background = color;
+}

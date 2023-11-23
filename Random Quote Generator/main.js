@@ -1,4 +1,14 @@
-function generate() {
+const GenerateBtn = document.querySelector(".btn");
+const ModeBtn = document.querySelector(".mode");
+const ContainerEl = document.querySelector(".container");
+
+ModeBtn.addEventListener("click", () => {
+  document.body.style.background = "black";
+  document.querySelector(".container").style.boxShadow =
+    "0 15px 35px rgba(255, 255, 255, 0.5)";
+});
+
+GenerateBtn.addEventListener("click", function generate() {
   var quotes = {
     "— Carol Burnett":
       '"When you have a dream, you have got to grab it and never let go."',
@@ -20,4 +30,4 @@ function generate() {
 
   document.getElementById("quotes").innerHTML = quote;
   document.getElementById("author").innerHTML = author;
-}
+});
